@@ -16,6 +16,12 @@ We use public Statsbomb and Wyscout data to compute shot distributions and train
 
 ## Experiments
 
+We use our [soccer-xg](https://github.com/ML-KULeuven/soccer_xg) Python library to train a logistic regression xG model. The following notebooks provide instructons for preprocessing the data and training the models:
+
+- [Prepare StatsBomb data](https://github.com/ML-KULeuven/soccer_xg/blob/master/notebooks/1-load-and-convert-statsbomb-data.ipynb)
+- [Prepare Wyscout data](https://github.com/ML-KULeuven/soccer_xg/blob/master/notebooks/1-load-and-convert-wyscout-data.ipynb)
+- [Train model](https://github.com/ML-KULeuven/soccer_xg/blob/master/notebooks/2-basic-usage.ipynb)
+
 Code for reproducing the simulation experiments will be released later.
 
 ## License
